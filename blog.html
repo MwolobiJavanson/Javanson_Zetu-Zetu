@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - ZetuZetu Motorbikes</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f4f8ff;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: linear-gradient(to right, #003cff, #007bff);
+    }
+
+    .navbar-brand {
+      font-size: 28px;
+      font-weight: bold;
+      color: #fff !important;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      color: #ffdd57 !important;
+    }
+
+    .btn-custom {
+      border-radius: 25px;
+      font-weight: 600;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('images/k.webp') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+      margin-bottom: 40px;
+      color: white;
+      text-align: center;
+      background-size: cover;
+    }
+
+    .hero h1 {
+      background: rgba(0,0,0,0.5);
+      padding: 20px 30px;
+      border-radius: 15px;
+    }
+
+    /* Blog Cards */
+    .blog-card {
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      margin-bottom: 30px;
+    }
+
+    .blog-card:hover {
+      transform: scale(1.03);
+    }
+
+    .blog-card img {
+      height: 200px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .blog-card-body {
+      padding: 20px;
+    }
+
+    .blog-card-title {
+      font-weight: 600;
+      font-size: 1.25rem;
+    }
+
+    .blog-card-text {
+      color: #555;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+
+    .sidebar h5 {
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #007bff;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+
+    .sidebar a:hover {
+      color: #ffdd57;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #003cff;
+      color: #fff;
+      padding: 30px 0;
+    }
+
+    footer a {
+      color: #ffdd57;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg shadow-lg ">
+  <div class="container">
+
+    <a class="navbar-brand" href="#">ZetuZetu</a>
+
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="featured.html">Featured</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+      </ul>
+
+      <form class="d-flex me-3" role="search">
+        <input class="form-control rounded-pill" type="search" placeholder="Search bikes...">
+        <button class="btn btn-warning ms-2 rounded-pill fw-bold" type="submit">🔍</button>
+      </form>
+
+      <a href="#" class="btn btn-light btn-custom me-2">🛒 Cart</a>
+      <a href="#" class="btn btn-warning btn-custom">🔑 Login</a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- end of navbar -->
+
+
+<!-- Hero Section -->
+<div class="hero">
+  <h1>Motorbike Blog & Tips</h1>
+</div>
+
+<!-- Blog Content  -->
+<div class="container">
+  <div class="row">
+
+    <!-- Main Blog Posts -->
+    <div class="col-lg-8">
+
+      <!-- Blog Post 1 -->
+      <div class="blog-card">
+        <img src="images/gw250.jpg" alt="Sport Bike Tips">
+        <div class="blog-card-body">
+          <h3 class="blog-card-title">🏍 Top 5 Tips for Sport Bike Riders</h3>
+          <p class="blog-card-text">Discover essential tips for handling sport bikes safely while maximizing speed and performance.</p>
+          <a href="#" class="btn btn-primary rounded-pill fw-bold">Read More</a>
+        </div>
+      </div>
+
+      <!-- Blog Post 2 -->
+      <div class="blog-card">
+        <img src="images/bike1.jpg" alt="Cruiser Maintenance">
+        <div class="blog-card-body">
+          <h3 class="blog-card-title">🛣 Cruiser Bike Maintenance Guide</h3>
+          <p class="blog-card-text">Keep your cruiser bike running smoothly with these simple and effective maintenance tips.</p>
+          <a href="#" class="btn btn-primary rounded-pill fw-bold">Read More</a>
+        </div>
+      </div>
+
+      <!-- Blog Post 3 -->
+      <div class="blog-card">
+        <img src="images/honda 1.jpeg" alt="Adventure Riding">
+        <div class="blog-card-body">
+          <h3 class="blog-card-title">🌍 Adventure Riding Essentials</h3>
+          <p class="blog-card-text">Plan your off-road adventure trips with the right gear, bikes, and safety strategies.</p>
+          <a href="#" class="btn btn-primary rounded-pill fw-bold">Read More</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-lg-4">
+      <div class="sidebar">
+        <h5>Categories</h5>
+        <a href="sportbike.html">Sport Bikes</a>
+        <a href="cruiserbike.html">Cruiser Bikes</a>
+        <a href="adventurebike.html">Adventure Bikes</a>
+        <a href="racingbike.html">Racing Bikes</a>
+        <a href="electricbike.html">Electric Bikes</a>
+      </div>
+
+      <div class="sidebar">
+        <h5>Recent Posts</h5>
+        <a href="#">🏍 Top 5 Tips for Sport Bike Riders</a>
+        <a href="#">🛣 Cruiser Bike Maintenance Guide</a>
+        <a href="#">🌍 Adventure Riding Essentials</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="mt-5 text-center">
+  <div class="container">
+    <h4 class="fw-bold">ZetuZetu Motorbikes</h4>
+    <p>Your destination for sport, cruiser, adventure, racing, and electric bikes.</p>
+    <p>
+      <a href="#">Home</a> | 
+      <a href="#">About</a> | 
+      <a href="#">Categories</a> | 
+      <a href="#">Contact</a>
+    </p>
+    <p><marquee>Developed by Javanson Mwolobi © 2026 ZetuZetu. All Rights Reserved.</marquee></p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>

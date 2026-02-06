@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About ZetuZetu Motorbikes</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f4f8ff;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: linear-gradient(to right, #003cff, #007bff);
+    }
+
+    .navbar-brand {
+      font-size: 28px;
+      font-weight: bold;
+      color: #fff !important;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      color: #ffdd57 !important;
+    }
+
+    
+    .hero {
+      background-color: bisque;
+      height: 400px;
+      position: relative;
+      border-radius: 15px;
+      margin-bottom: 50px;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      background: rgba(0,0,0,0.5);
+      padding: 20px 40px;
+      border-radius: 15px;
+    }
+
+    
+    section {
+      padding: 60px 0;
+    }
+
+    section h2 {
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    .feature-card {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      border-radius: 15px;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .feature-card:hover {
+      background-color: #ffdd57;
+      color: #000;
+      transform: translateY(-5px);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #003cff;
+      color: #fff;
+      padding: 30px 0;
+    }
+
+    footer a {
+      color: #ffdd57;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg shadow-lg ">
+  <div class="container">
+
+    <a class="navbar-brand" href="#">ZetuZetu</a>
+
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="featured.html">Featured</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+      </ul>
+
+      <form class="d-flex me-3" role="search">
+        <input class="form-control rounded-pill" type="search" placeholder="Search bikes...">
+        <button class="btn btn-warning ms-2 rounded-pill fw-bold" type="submit">🔍</button>
+      </form>
+
+      <a href="#" class="btn btn-light btn-custom me-2">🛒 Cart</a>
+      <a href="#" class="btn btn-warning btn-custom">🔑 Login</a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- end of navbar -->
+
+<!-- Hero Section -->
+<div class="hero">
+  <div class="hero-text">
+    <h1 class="display-4 fw-bold">About ZetuZetu Motorbikes</h1>
+    <p class="lead">Your ultimate destination for speed, style, and adventure.</p>
+  </div>
+</div>
+
+<!-- end of hero section -->
+<!-- Mission & Vision  -->
+<section class="text-center">
+  <div class="container">
+    <h2>Our Mission & Vision</h2>
+    <div class="row mt-4">
+      <div class="col-md-6 mb-4">
+        <div class="feature-card">
+          <h4>Our Mission</h4>
+          <p>To provide high-quality motorbikes for riders of all levels, combining performance, comfort, and reliability.</p>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="feature-card">
+          <h4>Our Vision</h4>
+          <p>To become the most trusted motorbike brand, inspiring adventure and passion for riding worldwide.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team / Founders -->
+<section class="bg-light text-center">
+  <div class="container">
+    <h2>Meet Our Team</h2>
+    <div class="row mt-4">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm bg-dark text-warning">
+          <img src="images/20260118_162636.png" class="card-img-top" alt="Founder 1">
+          <div class="card-body">
+            <h5 class="card-title">Javanson Mwolobi</h5>
+            <p class="card-text">Co-Founder & Operations</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/IMG-20260105-WA0005.jpg" class="card-img-top" alt="Founder 2">
+          <div class="card-body">
+            <h5 class="card-title">Clenis Mutoro</h5>
+            <p class="card-text">Founder & CEO</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm text-warning bg-dark">
+          <img src="images/1765343249995.jpg" class="card-img-top"  alt="Founder 3">
+          <div class="card-body">
+            <h5 class="card-title">Masiga Ben</h5>
+            <p class="card-text">Head of Marketing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us  -->
+<section class="text-center">
+  <div class="container">
+    <h2>Why Choose ZetuZetu?</h2>
+    <div class="row mt-4">
+      <div class="col-md-4 mb-4">
+        <div class="feature-card">
+          <h4>High Quality</h4>
+          <p>All our bikes meet the highest performance and safety standards.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="feature-card">
+          <h4>Wide Selection</h4>
+          <p>From sport to electric bikes, we have something for every rider.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="feature-card">
+          <h4>Customer Support</h4>
+          <p>We are here to help you with advice, maintenance, and support.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="bg-success text-white text-center py-5">
+  <div class="container">
+    <h2 class="fw-bold">Ready to Ride?</h2>
+    <p class="lead">Explore our bikes and join the ZetuZetu family today.</p>
+    <a href="index.html#featured" class="btn btn-warning btn-lg rounded-pill fw-bold">View Bikes</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="mt-5 text-center">
+  <div class="container">
+    <h4 class="fw-bold">ZetuZetu Motorbikes</h4>
+    <p>Your destination for sport, cruiser, adventure, racing, and electric bikes.</p>
+    <p>
+      <a href="#">Home</a> | 
+      <a href="#">About</a> | 
+      <a href="#">Categories</a> | 
+      <a href="#">Contact</a>
+    </p>
+    <p><marquee>Developed by Javanson Mwolobi © 2026 ZetuZetu. All Rights Reserved.</marquee></p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
