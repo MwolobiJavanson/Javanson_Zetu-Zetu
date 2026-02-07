@@ -5,8 +5,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sport Bike</title>
   <link rel="stylesheet" href="css/bootstrap.css">
+ 
   <style>
-    
+    /* Navbar customization */
+    .navbar {
+      background: linear-gradient(to right, #003cff, #007bff);
+    }
+
+    .navbar-brand {
+      font-size: 28px;
+      font-weight: bold;
+      color: #fff !important;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      color: #ffdd57 !important;
+    }
+
+    .btn-custom {
+      border-radius: 25px;
+      font-weight: 600;
+    }
+
+    /* Carousel */
+    .carousel-item img {
+      height: 500px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    /* Category bar */
+    .category-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .category-item {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 50px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .category-item:hover {
+      background-color: #ffdd57;
+      color: #000;
+      transform: scale(1.05);
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 0;
+    }
+
+    section h2 {
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
     /* Footer */
     footer {
       background-color: #003cff;
@@ -22,24 +95,61 @@
     footer a:hover {
       text-decoration: underline;
     }
-
+    .waala {
+      background-image: url(images/IMG-20260101-WA0020.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      border-radius: 15px;
+    }
+    .aloo {
+      background-image: url(images/y.webp);
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      border-radius: 15px;
+    }
+    .sasa {
+      background-image: url(images/IMG-20260101-WA0020.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      border-radius: 15px;
+    }
+    .poa {
+      background-image: url(images/IMG-20260101-WA0020.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      border-radius: 15px;
+    }
+    .sana {
+      background-image: url(images/phone5.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      border-radius: 15px;
+    }
+  
+  
   </style>
+
 </head>
 <body>
   
-<!-- Filter Bar -->
-<div class="container ">
-  <div class="filter-bar">
-    <a href="index.html"><button class="btn btn-danger filter-btn">Home</button></a>
+<!-- end of navbar -->
+<!-- Category Bar  -->
+<div class="container">
+  <div class="category-list">
     <a href="sportbike.html"><button class="btn btn-secondary filter-btn">Sport Bikes</button></a>
-    <a href="cruiserbike.html"><button class="btn btn-secondary filter-btn">Cruiser Bikes</button></a>
-    <a href="adventurebike.html"><button class="btn btn-secondary filter-btn">Adventure Bikes</button></a>
-    <a href="racingbike.html"><button class="btn btn-secondary filter-btn">Racing Bikes</button></a>
-    <a href="electricbike.html"><button class="btn btn-secondary filter-btn">Electric Bikes</button></a>
+    <a href="cruiserbike.html"><button class="btn btn-success filter-btn">Cruiser Bikes</button></a>
+    <a href="adventurebike.html"><button class="btn btn-warning filter-btn">Adventure Bikes</button></a>
+    <a href="racingbike.html"><button class="btn btn-primary filter-btn">Racing Bikes</button></a>
+    <a href="electricbike.html"><button class="btn btn-info filter-btn">Electric Bikes</button></a>
     
+
   </div>
 </div>
-
 
   <!-- section one -->
 <section id="sport-bikes" class="py-5">
